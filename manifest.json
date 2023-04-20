@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Halvar",
+    "version": "1.0",
+    "description": "Halvar as a boy's name is of Old Norse origin, and the meaning of Halvar is 'guardian of the rock'",
+  
+    "author": "martin.grytbak@renroros.no",  
+    "homepage_url": "https://renroros.no",
+
+    "content_scripts": [{
+        "js": ["content.js"],
+        "matches": ["https://docs.google.com/*"]
+      }]
+  }
